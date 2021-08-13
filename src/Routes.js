@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './Pages/Home/index'
+import Portfolio from './Pages/Home/index'
 
 export default function Routes() {
   return(
     <BrowserRouter>
       <Switch>
-        <Route exact path={['', '/']} component={Home}/>
+        <Route exact path={['', '/']} component={Portfolio}/>
       </Switch> 
     </BrowserRouter>
   )
