@@ -5,7 +5,7 @@ import animationData2 from './Animations/arrows-animation.json'
 import * as S from './styled'
 import MyPic from './Assets/my-pic.svg'
 
-export default function Home() {
+export default function Portfolio() {
   const [animationState, setAnimationState] = useState({
     isStopped: false, isPaused: false
   })
